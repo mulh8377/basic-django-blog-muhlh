@@ -1,0 +1,13 @@
+{% extends "generic.html" %}
+
+{% block content %}
+  <h1>Muhlh</h1>
+  <p> <em>Mozilla Developer Network</em>!</p>
+  <h2>Dynamic content</h2>
+  <p>The library has the following record counts:</p>
+  <ul>
+    <li><strong>Articles:</strong> {{ text }}</li>
+    <li><strong>Sounds:</strong> {{ sound }}</li>
+    <li><strong>Photos:</strong> {{ photos }}</li>
+  </ul>
+{% endblock %}
